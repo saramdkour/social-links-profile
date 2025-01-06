@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Inter-VariableFont_slnt,wght';
+    src: url('fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    
+    margin: 0;
+    
+    font-family: 'Inter-VariableFont_slnt,wght';
+    
+    background-color: #040505;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 285px;
+    height: 400px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+
+.card .person-image {
+    width: 60px;
+    border-radius: 100px;
+}
+
+.card div.social-media-links {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.card .social-media-links button {
+    border: 1px solid #343433;
+    background-color: #343433;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    color: white;
+    width: 235px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.card .social-media-links button:hover {
+    color: black;
+    background-color: #c4f82e;
+}
+
+.text {
+    color: white;
+    text-align: center;
+}
+
+p.text {
+    font-size: 12px;
+    margin: 0px 0px 20px;
+}
+
+.person-address {
+    color: #c4f82e;
+}
+
+.person-name {
+    margin-bottom: 2px;
+
+}
